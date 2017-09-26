@@ -1,0 +1,16 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<name>springboot-core-action-book-demo</name>
+	
+	<groupId>springboot</groupId>
+	<artifactId>springboot-core-action-book-demo</artifactId>
+	<version>1.0</version>
+	<packaging>pom</packaging>
+
+	<modules>
+		<!-- 第一章快速入门 -->
+		<module>chapter-1-spring-boot-quickstart</module>
+	</modules>
+
+</project>

@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
  * Created by bysocket on 26/09/2017.
  */
 @RestController
-public class HelloController2 {
+public class HelloBookController {
 
-    @RequestMapping("/hello2")
-    String sayHello() {
-        return "Hello，Spring Boot！";
+    @RequestMapping("/book/hello")
+    public String sayHello() {
+        return "Hello，《Spring Boot 2.x 核心技术实战 - 上 基础篇》！";
     }
 }

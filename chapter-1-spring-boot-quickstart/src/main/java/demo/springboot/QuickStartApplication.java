@@ -1,4 +1,4 @@
-package spring.boot.core;
+package demo.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

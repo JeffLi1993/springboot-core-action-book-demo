@@ -50,7 +50,7 @@ public class BookController {
     /**
      * 处理 "/update" 的 PUT 请求，用来更新 Book 信息
      */
-    @RequestMapping(value = "/update", method = RequestMethod.POST)
+    @RequestMapping(value = "/update", method = RequestMethod.PUT)
     public Book putBook(@RequestBody Book book) {
         return bookService.update(book);
     }
@@ -58,7 +58,7 @@ public class BookController {
     /**
      * 处理 "/book/{id}" 的 GET 请求，用来删除 Book 信息
      */
-    @RequestMapping(value = "/delete/{id}", method = RequestMethod.GET)
+    @RequestMapping(value = "/delete/{id}", method = RequestMethod.DELETE)
     public Book deleteBook(@PathVariable Long id) {
         return bookService.delete(id);
     }

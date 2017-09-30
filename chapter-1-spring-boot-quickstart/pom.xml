@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <name>chapter-1-spring-boot-quickstart</name>
-    <description>《Spring Boot 2.x 核心技术实战 - 上 基础篇》第一章《Spring Boot 入门》Demo</description>
+    <description>《Spring Boot 2.x 核心技术实战 - 上 基础篇》第 1 章《Spring Boot 入门》Demo</description>
 
     <groupId>demo.springboot</groupId>
     <artifactId>chapter-1-spring-boot-quickstart</artifactId>

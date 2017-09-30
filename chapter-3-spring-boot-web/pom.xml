@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <name>chapter-3-spring-boot-web</name>
-    <description>《Spring Boot 2.x 核心技术实战 - 上 基础篇》第三章《Web 开发》Demo</description>
+    <description>《Spring Boot 2.x 核心技术实战 - 上 基础篇》第 3 章《Web 开发》Demo</description>
 
     <groupId>demo.springboot</groupId>
     <artifactId>chapter-3-spring-boot-web</artifactId>

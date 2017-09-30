@@ -30,7 +30,7 @@ public class BookController {
 
     /**
      * 获取 Book
-     * 处理 "/book/{id}" 的 GET 请求，用来获取 Book 细腻
+     * 处理 "/book/{id}" 的 GET 请求，用来获取 Book 信息
      */
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
     public Book getBook(@PathVariable Long id) {
@@ -38,7 +38,7 @@ public class BookController {
     }
 
     /**
-     * 创建
+     * 创建 Book
      * 处理 "/book/create" 的 POST 请求，用来新建 Book 信息
      * 通过 @RequestBody 绑定实体参数，也通过 @RequestParam 传递参数
      */
@@ -48,6 +48,7 @@ public class BookController {
     }
 
     /**
+     * 更新 Book
      * 处理 "/update" 的 PUT 请求，用来更新 Book 信息
      */
     @RequestMapping(value = "/update", method = RequestMethod.PUT)
@@ -56,6 +57,7 @@ public class BookController {
     }
 
     /**
+     * 删除 Book
      * 处理 "/book/{id}" 的 GET 请求，用来删除 Book 信息
      */
     @RequestMapping(value = "/delete/{id}", method = RequestMethod.DELETE)

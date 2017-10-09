@@ -5,6 +5,7 @@ import demo.springboot.domain.BookRepository;
 import demo.springboot.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheConfig;
+import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
@@ -40,8 +41,10 @@ public class BookServiceImpl implements BookService {
         return bookRepository.save(book);
     }
 
+    @CacheEvict(key = "#p0")
     @Override
     public Book delete(Long id) {
+        System.out.println(" call delete method ");
         Book book = bookRepository.findById(id).get();
         bookRepository.delete(book);
         return book;

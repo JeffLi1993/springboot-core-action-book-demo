@@ -10,12 +10,16 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<!-- 第一章《Spring Boot 入门》 -->
+		<!-- 第 1 章《Spring Boot 入门》 -->
 		<module>chapter-1-spring-boot-quickstart</module>
-		<!-- 第二章《配置》 -->
+		<!-- 第 2 章《配置》 -->
 		<module>chapter-2-spring-boot-config</module>
-		<!-- 第三章《Web 开发》 -->
+		<!-- 第 3 章《Web 开发》 -->
 		<module>chapter-3-spring-boot-web</module>
+		<!-- 第 4 章《模板引擎》 -->
+		<module>chapter-4-spring-boot-web-thymeleaf</module>
+		<!-- 第 5 章《数据存储》 -->
+		<module>chapter-5-spring-boot-data-jpa</module>
 	</modules>
 
 </project>

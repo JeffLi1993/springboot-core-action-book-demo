@@ -20,6 +20,8 @@
 		<module>chapter-4-spring-boot-web-thymeleaf</module>
 		<!-- 第 5 章《数据存储》 -->
 		<module>chapter-5-spring-boot-data-jpa</module>
+		<!-- 第 6 章《数据缓存》 -->
+		<module>chapter-6-spring-boot-cache-redis</module>
 	</modules>
 
 </project>

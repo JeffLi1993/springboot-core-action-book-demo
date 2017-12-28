@@ -21,13 +21,13 @@ public class ConfigApplicationTests {
 
 	@Test
 	public void testBookProperties() {
-		Assert.assertEquals(bookProperties.getName(),"'Spring Boot 2.x Core Action'");
+		Assert.assertEquals(bookProperties.getName(),"[Spring Boot 2.x Core Action]");
 		Assert.assertEquals(bookProperties.getWriter(),"BYSocket");
 	}
 
 	@Test
 	public void testBookComponent() {
-		Assert.assertEquals(bookComponent.getName(),"'Spring Boot 2.x Core Action'");
+		Assert.assertEquals(bookComponent.getName(),"[Spring Boot 2.x Core Action]");
 		Assert.assertEquals(bookComponent.getWriter(),"BYSocket");
 	}
 }
